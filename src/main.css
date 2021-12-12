@@ -1,3 +1,5 @@
 .red {
     color: red;
+    background-image: url('./webpack.png');
+    height: 400px;
 }
