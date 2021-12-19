@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./font/BROWN-ITALIC.woff') format('woff');
+}
+
+body{
+    font-family: 'MyFont';
+}
 .red {
     color: red;
-    background-image: url('./webpack.png');
-    height: 400px;
 }
