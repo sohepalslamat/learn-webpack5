@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
-  "author": "shep alslamat",
+  "author": "sohep alslamat",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.5.1",
