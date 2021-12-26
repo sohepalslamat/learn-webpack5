@@ -1,6 +1,12 @@
 import join from 'lodash/join'
 
-const element1 = document.createElement('h2')
-element1.innerHTML = join(['hello', 'index1'], ' ')
+const btn = document.createElement('button')
+btn.innerHTML = join(['Press', 'Me'], ' ')
+btn.onclick = () => {
+    const p = document.createElement('p')
+    p.innerText = "Hi Btn"
+    document.body.appendChild(p)
+}
 
-export default element1
+document.body.appendChild(btn)
+
