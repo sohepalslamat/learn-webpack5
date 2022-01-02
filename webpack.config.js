@@ -12,6 +12,9 @@ module.exports = {
           title: 'Webpack',
         }),
     ],
+    devServer: {
+        static: './dist',
+    },
     devtool: 'inline-source-map',
     output: {
         filename: '[name].bundle.js',
